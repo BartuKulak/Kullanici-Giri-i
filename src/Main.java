@@ -20,7 +20,7 @@ public class Main {
         }
         else
             System.out.println("Giriş Yapılamadı");
-        if(a==1){
+        if(a=1){
             System.out.print("Yeni Şifre Girin: ");
             pass=input.nextLine();
             if(pass.equals(password) || pass.equals(password1))
@@ -28,7 +28,7 @@ public class Main {
             else
                 System.out.println("Şifre Oluşturuldu!");
         }
-        else if(a==2)
+        else if(a=2)
             System.out.println("Giriş Yapılamadı");
     }
 }
